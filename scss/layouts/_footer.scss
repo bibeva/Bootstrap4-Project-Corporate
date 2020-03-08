@@ -1,0 +1,19 @@
+// footer
+#footer{
+	background: $red;
+	padding: 50px 0;
+	color: $white;
+	text-align: center;
+
+	.copyright{
+		margin: 0 0 15px;
+	}
+
+	.socials{
+		a{
+			&:hover{
+				background: darken($red, 5%);
+			}
+		}
+	}
+}

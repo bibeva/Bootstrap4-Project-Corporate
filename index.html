@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Corporate - Bootstrap 4 Project</title>
+	<!-- google font -->
+	<link href="https://fonts.googleapis.com/css?family=Muli:400,600&display=swap" rel="stylesheet">
+	<!-- fontawesome 5 css -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" rel="stylesheet">
+	<!-- bootstrap 4 css -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<!-- custom css -->
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+	<div id="wrapper">
+		<!-- header block -->
+		<header id="header">
+			<div class="container-fluid">
+				<nav class="navbar navbar-expand-lg navbar-light">
+					<a class="navbar-brand" href="#">Corporate</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+						aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav">
+							<li class="nav-item active"><a class="nav-link" href="#hero">Home</a></li>
+							<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+							<li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+							<li class="nav-item"><a class="nav-link" href="#works">Works</a></li>
+							<li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+							<li class="nav-item"><a class="nav-link" href="#testimonial">Testimonial</a></li>
+							<li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+							<li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+							<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<!-- main block -->
+		<main>
+			<!-- hero block -->
+			<section id="hero" class="hero-block">
+				<!-- carousel block -->
+				<div id="myCarousel" class="carousel slide" data-ride="carousel">
+					<!-- pagination -->
+					<ol class="carousel-indicators">
+						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#myCarousel" data-slide-to="1"></li>
+						<li data-target="#myCarousel" data-slide-to="2"></li>
+					</ol>
+					<div class="carousel-inner">
+						<!-- item 1 -->
+						<div class="carousel-item active">
+							<img src="images/img-hero1.jpg" alt="Image Description" width="1920" height="700">
+							<div class="carousel-caption">
+								<h2>The perfect design for your website</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid ex ullam atque nesciunt recusandae
+									dolorum ipsa, sunt rem voluptas. Praesentium nisi saepe sint eius sed excepturi minus rem harum eaque!
+								</p>
+								<a class="btn btn-primary" href="#">Learn More <i class="fas fa-chevron-right"></i></a>
+							</div>
+						</div>
+						<!-- item 2 -->
+						<div class="carousel-item">
+							<img src="images/img-hero2.jpg" alt="Image Description" width="1920" height="700">
+							<div class="carousel-caption">
+								<h2>Start Your Future Financial Plan</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab suscipit dicta nulla. Consequuntur
+									obcaecati officiis, labore doloribus non tempore impedit consequatur ab dolor. Explicabo quam
+									repellendus vero omnis, nisi odio!</p>
+								<a class="btn btn-primary" href="#">Learn More <i class="fas fa-chevron-right"></i></a>
+							</div>
+						</div>
+						<!-- item 3 -->
+						<div class="carousel-item">
+							<img src="images/img-hero3.jpg" alt="Image Description" width="1920" height="700">
+							<div class="carousel-caption">
+								<h2>Enjoy the Difference</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex officiis aspernatur, voluptate,
+									excepturi, inventore impedit dicta temporibus provident asperiores quidem tenetur omnis et hic ipsa
+									incidunt necessitatibus delectus voluptas modi.</p>
+								<a class="btn btn-primary" href="#">Learn More <i class="fas fa-chevron-right"></i></a>
+							</div>
+						</div>
+					</div>
+					<!-- controls -->
+					<a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+				<!-- newsletter block -->
+				<div class="newsletter-block">
+					<div class="container-fluid">
+						<h2><i class="fas fa-envelope"></i> Subscribe to our Newsletter</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem amet corporis dignissimos, enim
+							reiciendis quod cumque consequuntur rem nesciunt nobis.</p>
+						<form class="newsletter">
+							<div class="form-group">
+								<input type="email" class="form-control" placeholder="Enter the email address">
+								<button type="submit" class="btn btn-primary"><i class="fas fa-paper-plane"></i></button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
+			<!-- about block -->
+			<section id="about" class="block about-block">
+				<div class="container-fluid">
+					<div class="title-holder">
+						<h2>About Us</h2>
+						<div class="subtitle">learn more about us</div>
+					</div>
+					<div class="row content-holder">
+						<div class="col-sm-6 image">
+							<img src="images/img1.jpg" alt="Image Description">
+						</div>
+						<div class="col-sm-6">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit dicta veritatis sint quidem
+								asperiores magni eaque praesentium temporibus, magnam, eveniet consequatur possimus nihil? Nemo deserunt
+								repudiandae soluta neque doloribus, quo!</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae alias ex error distinctio laudantium
+								recusandae, iure. Vel nisi soluta, minus consectetur reiciendis laborum, laudantium perspiciatis quos
+								molestias quam eum.</p>
+							<div class="progress-block">
+								<h4>HTML / CSS / Javascript</h4>
+								<div class="progress">
+									<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+										aria-valuemax="100" style="width:80%">
+										80%
+									</div>
+								</div>
+							</div>
+							<div class="progress-block">
+								<h4>Responsive</h4>
+								<div class="progress">
+									<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="95" aria-valuemin="0"
+										aria-valuemax="100" style="width:95%">
+										95%
+									</div>
+								</div>
+							</div>
+							<div class="progress-block">
+								<h4>Photoshop</h4>
+								<div class="progress">
+									<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+										aria-valuemax="100" style="width:60%">
+										60%
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row columns features">
+						<div class="col-sm-4">
+							<h3><i class="fas fa-heart"></i> Management</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae incidunt nisi velit libero
+								mollitia autem! Dolore sint illo possimus iste itaque deserunt quaerat sed, corrupti voluptate
+								doloremque. Delectus beatae, odit.</p>
+							<a href="#" class="btn btn-primary">Read More <i class="fas fa-chevron-right"></i></a>
+						</div>
+						<div class="col-sm-4">
+							<h3><i class="fas fa-user"></i> Administration</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae ea eos sint, velit dolorum magnam
+								assumenda unde molestiae ipsam obcaecati architecto incidunt similique impedit qui </p>
+							<a href="#" class="btn btn-primary">Read More <i class="fas fa-chevron-right"></i></a>
+						</div>
+						<div class="col-sm-4">
+							<h3><i class="fas fa-users"></i> Processing Team</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt mollitia voluptas eius soluta! Sequi
+								laboriosam dolorem cupiditate consequatur quasi dignissimos quibusdam, impedit. incidunt similique
+								impedit qui</p>
+							<a href="#" class="btn btn-primary">Read More <i class="fas fa-chevron-right"></i></a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- services block -->
+			<section id="services" class="block services-block">
+				<div class="container-fluid">
+					<div class="title-holder">
+						<h2>Our Services</h2>
+						<div class="subtitle">services we provide</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-4 holder">
+							<div class="icon">
+								<i class="fas fa-clone"></i>
+							</div>
+							<h3>Responsive Design</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, vel! Accusantium hic fugiat laudantium
+								earum consequuntur, unde nam et mollitia eaque incidunt sed.</p>
+						</div>
+						<div class="col-sm-4 holder">
+							<div class="icon">
+								<i class="fas fa-snowflake"></i>
+							</div>
+							<h3>Creative Design</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, vel! Accusantium hic fugiat laudantium
+								earum consequuntur, unde nam et mollitia eaque incidunt sed.</p>
+						</div>
+						<div class="col-sm-4 holder">
+							<div class="icon">
+								<i class="fas fa-plug"></i>
+							</div>
+							<h3>SEO Optimized</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, vel! Accusantium hic fugiat laudantium
+								earum consequuntur, unde nam et mollitia eaque incidunt sed.</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-4 holder">
+							<div class="icon">
+								<i class="fas fa-desktop"></i>
+							</div>
+							<h3>Retina Ready</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, vel! Accusantium hic fugiat laudantium
+								earum consequuntur, unde nam et mollitia eaque incidunt sed.</p>
+						</div>
+						<div class="col-sm-4 holder">
+							<div class="icon">
+								<i class="fas fa-trophy"></i>
+							</div>
+							<h3>Brower Compatibility</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, vel! Accusantium hic fugiat laudantium
+								earum consequuntur, unde nam et mollitia eaque incidunt sed.</p>
+						</div>
+						<div class="col-sm-4 holder">
+							<div class="icon">
+								<i class="fas fa-life-ring"></i>
+							</div>
+							<h3>Customer Support</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, vel! Accusantium hic fugiat laudantium
+								earum consequuntur, unde nam et mollitia eaque incidunt sed.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- works block -->
+			<section id="works" class="block works-block">
+				<div class="container-fluid">
+					<div class="title-holder">
+						<h2>Our Works</h2>
+						<div class="subtitle">our awesome works</div>
+					</div>
+					<div class="row portfoliolist">
+						<div class="col-sm-4">
+							<div class="portfolio-wrapper">
+								<a href="#">
+									<img src="images/img2.jpg" alt="Image Description">
+									<div class="label text-center">
+										<h3>Lonely Path</h3>
+										<p>Web Design</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="portfolio-wrapper">
+								<a href="#">
+									<img src="images/img8.jpg" alt="Image Description">
+									<div class="label text-center">
+										<h3>Photographer Girl</h3>
+										<p>Branding</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="portfolio-wrapper">
+								<a href="#">
+									<img src="images/img4.jpg" alt="Image Description">
+									<div class="label text-center">
+										<h3>The Difference</h3>
+										<p>Web Design</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="portfolio-wrapper">
+								<a href="#">
+									<img src="images/img10.jpg" alt="Image Description">
+									<div class="label text-center">
+										<h3>Nature Patterns</h3>
+										<p>Branding</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="portfolio-wrapper">
+								<a href="#">
+									<img src="images/img11.jpg" alt="Image Description">
+									<div class="label text-center">
+										<h3>The Difference</h3>
+										<p>Photography</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="portfolio-wrapper">
+								<a href="#">
+									<img src="images/img6.jpg" alt="Image Description">
+									<div class="label text-center">
+										<h3>Winter Sonata</h3>
+										<p>Web Design</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="portfolio-wrapper">
+								<a href="#">
+									<img src="images/img9.jpg" alt="Image Description">
+									<div class="label text-center">
+										<div class="label text-center-text">
+											<h3>Lonely Path</h3>
+											<p>Branding</p>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="portfolio-wrapper">
+								<a href="#">
+									<img src="images/img12.jpg" alt="Image Description">
+									<div class="label text-center">
+										<h3>Appreciation</h3>
+										<p>Photography</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="portfolio-wrapper">
+								<a href="#">
+									<img src="images/img5.jpg" alt="Image Description">
+									<div class="label text-center">
+										<h3>Happy Days</h3>
+										<p>Web Design</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- team block -->
+			<section id="team" class="block team-block">
+				<div class="container-fluid">
+					<div class="title-holder">
+						<h2>Our Team</h2>
+						<div class="subtitle">some of our experts</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-3">
+							<div class="image">
+								<img src="images/team1.jpg" alt="Image Description">
+								<div class="overlay">
+									<div class="socials">
+										<ul>
+											<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+											<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+											<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="content">
+								<h3>Gabriel Hart</h3>
+								<span class="designation">CEO</span>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui facilis, totam maiores.</p>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="image">
+								<img src="images/team2.jpg" alt="Image Description">
+								<div class="overlay">
+									<div class="socials">
+										<ul>
+											<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+											<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+											<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="content">
+								<h3>David Antony</h3>
+								<span class="designation">Manager</span>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste veritatis saepe eligendi eum.</p>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="image">
+								<img src="images/team4.jpg" alt="Image Description">
+								<div class="overlay">
+									<div class="socials">
+										<ul>
+											<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+											<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+											<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="content">
+								<h3>Nicholas Perry</h3>
+								<span class="designation">UX Designer</span>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo sapiente neque, quisquam.</p>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="image">
+								<img src="images/team5.jpg" alt="Image Description">
+								<div class="overlay">
+									<div class="socials">
+										<ul>
+											<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+											<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+											<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="content">
+								<h3>Sarah Wills</h3>
+								<span class="designation">Developer</span>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam natus explicabo cumque maxime.</p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-3">
+							<div class="image">
+								<img src="images/team6.jpg" alt="Image Description">
+								<div class="overlay">
+									<div class="socials">
+										<ul>
+											<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+											<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+											<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="content">
+								<h3>Sophia Pitt</h3>
+								<span class="designation">Developer</span>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas eum id cumque.</p>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="image">
+								<img src="images/team7.jpg" alt="Image Description">
+								<div class="overlay">
+									<div class="socials">
+										<ul>
+											<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+											<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+											<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="content">
+								<h3>Taylor Lopez</h3>
+								<span class="designation">Developer</span>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, fuga! Ullam repellendus.</p>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="image">
+								<img src="images/team8.jpg" alt="Image Description">
+								<div class="overlay">
+									<div class="socials">
+										<ul>
+											<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+											<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+											<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="content">
+								<h3>Ryan Giggs</h3>
+								<span class="designation">Content Writer</span>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo id, optio suscipit.</p>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="image">
+								<img src="images/team9.jpg" alt="Image Description">
+								<div class="overlay">
+									<div class="socials">
+										<ul>
+											<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+											<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+											<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="content">
+								<h3>David Smith</h3>
+								<span class="designation">SEO Expert</span>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem voluptatem iusto.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- testimonial block -->
+			<section id="testimonial" class="testimonial-block" style="background-image:url('images/bg-testimonial.jpg');">
+				<div class="container-fluid">
+					<div class="title-holder">
+						<h2>Client Testimonials</h2>
+						<div class="subtitle">what client says about us</div>
+					</div>
+					<div id="myTestimonial" class="carousel slide" data-ride="carousel">
+						<ol class="carousel-indicators">
+							<li data-target="#myTestimonial" data-slide-to="0" class="active"></li>
+							<li data-target="#myTestimonial" data-slide-to="1"></li>
+							<li data-target="#myTestimonial" data-slide-to="2"></li>
+						</ol>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<blockquote>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur non earum repudiandae ipsa
+										reprehenderit quaerat, quo a cupiditate, voluptatibus voluptates, dolores nam accusantium error,
+										modi iure itaque totam labore. Molestiae.</p>
+									<cite>
+										<span class="name">John Wills</span>
+										<span class="designation">Manager</span>
+									</cite>
+								</blockquote>
+							</div>
+							<div class="carousel-item">
+								<blockquote>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, magni fugiat eveniet minus
+										perspiciatis! Nostrum laborum maxime consequuntur repellat nam magni, quae incidunt distinctio enim
+										itaque eligendi laboriosam, quod, ad!</p>
+									<cite>
+										<span class="name">Jasmine Perry</span>
+										<span class="designation">Accountant</span>
+									</cite>
+								</blockquote>
+							</div>
+							<div class="carousel-item">
+								<blockquote>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium facilis optio porro omnis
+										alias eaque corporis error est ut, reprehenderit quae asperiores illum quo voluptates debitis non.
+										Repellat fugit, asperiores?</p>
+									<cite>
+										<span class="name">Rocky Johnson</span>
+										<span class="designation">CEO</span>
+									</cite>
+								</blockquote>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- pricing block -->
+			<section id="pricing" class="block pricing-block">
+				<div class="container-fluid">
+					<div class="title-holder">
+						<h2>Pricing &amp; Plans</h2>
+						<div class="subtitle">check our pricing &amp; plans</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-4">
+							<div class="heading">
+								<h3>Basic</h3>
+								<span class="price">£49</span>
+							</div>
+							<div class="content">
+								<ul>
+									<li>Wireframing</li>
+									<li>Visual Design</li>
+									<li>5 pages</li>
+									<li>Free Hosting</li>
+									<li>Support &amp; Assistance</li>
+								</ul>
+							</div>
+							<div class="btn-holder">
+								<a href="#" class="btn btn-primary">Order Now</a>
+							</div>
+						</div>
+						<div class="col-sm-4 highlightedBlock">
+							<div class="heading">
+								<h3>Premium</h3>
+								<span class="price">£149</span>
+								<span class="ribbon">Popular</span>
+							</div>
+							<div class="content">
+								<ul>
+									<li>Wireframing</li>
+									<li>Visual Design</li>
+									<li>15 pages</li>
+									<li>Free Hosting</li>
+									<li>Support &amp; Assistance</li>
+								</ul>
+							</div>
+							<div class="btn-holder">
+								<a href="#" class="btn btn-primary">Order Now</a>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="heading">
+								<h3>Ultimate</h3>
+								<span class="price">£349</span>
+							</div>
+							<div class="content">
+								<ul>
+									<li>Wireframing</li>
+									<li>Visual Design</li>
+									<li>Unlimited pages</li>
+									<li>Free Hosting</li>
+									<li>Support &amp; Assistance</li>
+								</ul>
+							</div>
+							<div class="btn-holder">
+								<a href="#" class="btn btn-primary">Order Now</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- blog block -->
+			<section id="blog" class="block blog-block">
+				<div class="container-fluid">
+					<div class="title-holder">
+						<h2>Latest From Blog</h2>
+						<div class="subtitle">get our latest news from blog</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-4">
+							<div class="holder">
+								<div class="image">
+									<img src="images/blog1.jpg" alt="Image Description">
+								</div>
+								<time datetime="2016-11-15">15 Nov 2016</time>
+								<h3><a href="#">Coffee Lovers</a></h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, asperiores eaque quibusdam eum
+									quod cum nesciunt.</p>
+								<a href="#" class="btn btn-primary">Read More <i class="fas fa-chevron-right"></i></a>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="holder">
+								<div class="image">
+									<img src="images/blog2.jpg" alt="Image Description">
+								</div>
+								<time datetime="2016-11-15">15 Nov 2016</time>
+								<h3><a href="#">Tips for UI Design</a></h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus mollitia quos labore officiis quod
+									optio saepe voluptatum.</p>
+								<a href="#" class="btn btn-primary">Read More <i class="fas fa-chevron-right"></i></a>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="holder">
+								<div class="image">
+									<img src="images/blog3.jpg" alt="Image Description">
+								</div>
+								<time datetime="2016-11-15">15 Nov 2016</time>
+								<h3><a href="#">Beautiful Day</a></h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident velit suscipit dicta placeat
+									neque quidem quos.</p>
+								<a href="#" class="btn btn-primary">Read More <i class="fas fa-chevron-right"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- contact block -->
+			<section id="contact" class="block contact-block">
+				<div class="title-holder">
+					<h2>Contact Us</h2>
+					<div class="subtitle">get connected with us</div>
+				</div>
+				<div class="container-fluid">
+					<form class="contact-form">
+						<div class="row">
+							<div class="col-sm-4">
+								<div class="form-group">
+									<input type="text" placeholder="Enter your Full Name" required>
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="form-group">
+									<input type="text" placeholder="Enter your Email Address" required>
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="form-group">
+									<input type="text" placeholder="Enter your Contact Number">
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-12">
+								<div class="form-group">
+									<textarea placeholder="Enter your Message" required></textarea>
+								</div>
+							</div>
+						</div>
+						<div class="btn-holder">
+							<button class="btn btn-primary">Submit</button>
+						</div>
+					</form>
+				</div>
+				<div class="google-map">
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14048.211570060965!2d-0.1228208876550775!3d51.505942908931324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1481805868782"
+						allowfullscreen></iframe>
+				</div>
+				<div class="container-fluid">
+					<div class="contact-info">
+						<ul>
+							<li><i class="fas fa-envelope"></i> hello@domain.com</li>
+							<li><i class="fas fa-phone"></i> 000-000-0000</li>
+							<li><i class="fas fa-map-marker-alt"></i> London, United Kingdom</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+		</main>
+		<!-- footer block -->
+		<footer id="footer">
+			<div class="container-fluid">
+				<div class="copyright">&copy; 2020 Corporate. All Right Reserved.</div>
+				<div class="socials">
+					<ul>
+						<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+						<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+		<a href="#" class="go-top">Go Top</a>
+	</div>
+	<!-- jquery 3 cdn -->
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<!-- popper js cdn -->
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+	</script>
+	<!-- bootstrap 4 cdn -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+	</script>
+	<!-- custom js -->
+	<script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,105 @@
+// header
+#header {
+	padding: 15px 0;
+	position: fixed;
+	left: 0;
+	right: 0;
+	z-index: 9999;
+	background: $white;
+	box-shadow: 0 0 8px 0px rgba(0,0,0,0.1);
+	transition: all 0.5s linear;
+
+	@media only screen and (max-width: 1023px) {
+		padding: 10px 0;
+	}
+
+	.navbar {
+		padding: 0;
+		justify-content: space-between;
+	}
+
+	.navbar-brand {
+		color: $red;
+		text-transform: uppercase;
+		font-weight: 600;
+		height: auto;
+		padding: 0;
+		font-size: 22px;
+		line-height: 1.6;
+	}
+
+	.navbar-collapse {
+		flex-grow: 0;
+
+		.navbar-nav {
+			font-size: 14px;
+			line-height: 20px;
+			padding: 10px 0 0;
+
+			@media only screen and (max-width: 1023px) {
+				float: none;
+			}
+
+			@media only screen and (max-width: 767px) {
+				margin: 0;
+			}
+		}
+
+		.nav-item {
+			padding: 0 10px 5px;
+
+			@media only screen and (max-width: 1023px) {
+				float: none;
+				display: block;
+				padding: 7px 0;
+			}
+
+			&:last-child {
+				padding-right: 0;
+			}
+
+			a {
+				padding: 0;
+				color: lighten($black, 10%);
+				position: relative;
+
+				&:hover {
+					background: none;
+					color: $red;
+
+					&:before {
+						right: 0;
+						left: 0;
+						opacity: 1;
+					}
+				}
+
+				&:before {
+					content: '';
+					background: $red;
+					height: 1px;
+					position: absolute;
+					bottom: -1px;
+					left: -20px;
+					right: 100%;
+					transition: all 0.3s linear;
+					-webkit-transition: all 0.3s linear;
+					opacity: 0;
+				}
+			}
+
+			&.active {
+				> a {
+					background: none;
+					color: $red;
+
+					&:before {
+						right: 0;
+						left: 0;
+						opacity: 1;
+					}
+				}
+			}
+		}
+	}
+}
