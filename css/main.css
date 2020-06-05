@@ -459,54 +459,12 @@ textarea {
       .hero-block p {
         margin: 0 0 25px; } }
 
-.newsletter-block {
-  background: #f64b4b;
-  padding: 40px 0 50px;
-  color: #fff;
-  margin: -1px 0 0;
-  text-align: center; }
-  @media only screen and (max-width: 767px) {
-    .newsletter-block {
-      padding: 30px 0; } }
-  .newsletter-block .container-fluid {
-    max-width: 800px; }
-  .newsletter-block h2 .fas {
-    font-size: 28px; }
-    @media only screen and (max-width: 767px) {
-      .newsletter-block h2 .fas {
-        font-size: 20px; } }
-  .newsletter-block .btn.btn-primary {
-    background: #fff;
-    color: #f64b4b;
-    border: 0;
-    border-radius: 0;
-    padding: 13px 20px;
-    position: absolute;
-    right: 0;
-    top: 0; }
-    .newsletter-block .btn.btn-primary:hover {
-      color: #333; }
-  .newsletter-block .btn .fas {
-    margin: 0; }
-  .newsletter-block .newsletter {
-    position: relative; }
-  .newsletter-block input[type=email] {
-    padding: 15px 70px 15px 15px;
-    border-radius: 0; }
-    .newsletter-block input[type=email]:focus {
-      box-shadow: none; }
-
 @media only screen and (max-width: 767px) {
   .about-block .image {
     padding-bottom: 20px; } }
 @media only screen and (max-width: 767px) {
   .about-block .features [class*="col-"] {
     padding-bottom: 30px; } }
-.about-block .content-holder {
-  margin: 0 -15px 70px; }
-  @media only screen and (max-width: 767px) {
-    .about-block .content-holder {
-      margin: 0 -15px 20px; } }
 .about-block .progress-block {
   margin: 0 0 25px; }
   @media only screen and (max-width: 767px) {
@@ -520,21 +478,6 @@ textarea {
   background-color: #f64b4b;
   -webkit-transition: width 0.3s linear;
   transition: width 0.3s linear; }
-.about-block .columns p {
-  margin: 0 0 25px; }
-  @media only screen and (max-width: 767px) {
-    .about-block .columns p {
-      margin: 0 0 20px; } }
-.about-block .columns h3 .fas {
-  color: #f64b4b;
-  margin: 0 5px 0 0;
-  font-size: 35px; }
-  @media only screen and (max-width: 767px) {
-    .about-block .columns h3 .fas {
-      font-size: 22px; } }
-@media only screen and (max-width: 767px) {
-  .about-block .columns h3 {
-    margin: 0 0 15px; } }
 
 @media only screen and (max-width: 767px) {
   .services-block {

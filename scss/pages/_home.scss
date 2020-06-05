@@ -64,67 +64,6 @@
 	}
 }
 
-// newsletter block
-.newsletter-block {
-	background: $red;
-	padding: 40px 0 50px;
-	color: $white;
-	margin: -1px 0 0;
-	text-align: center;
-
-	@media only screen and (max-width: 767px) {
-		padding: 30px 0;
-	}
-
-	.container-fluid {
-		max-width: 800px;
-	}
-
-	h2 {
-		.fas {
-			font-size: 28px;
-
-			@media only screen and (max-width: 767px) {
-				font-size: 20px;
-			}
-		}
-	}
-
-	.btn {
-		&.btn-primary {
-			background: $white;
-			color: $red;
-			border: 0;
-			border-radius: 0;
-			padding: 13px 20px;
-			position: absolute;
-			right: 0;
-			top: 0;
-
-			&:hover {
-				color: $black;
-			}
-		}
-
-		.fas {
-			margin: 0;
-		}
-	}
-
-	.newsletter {
-		position: relative;
-	}
-
-	input[type=email] {
-		padding: 15px 70px 15px 15px;
-		border-radius: 0;
-
-		&:focus {
-			box-shadow: none;
-		}
-	}
-}
-
 // about block
 .about-block {
 	.image {
@@ -138,14 +77,6 @@
 			@media only screen and (max-width: 767px) {
 				padding-bottom: 30px;
 			}
-		}
-	}
-
-	.content-holder {
-		margin: 0 -15px 70px;
-
-		@media only screen and (max-width: 767px) {
-			margin: 0 -15px 20px;
 		}
 	}
 
@@ -167,32 +98,6 @@
 		background-color: $red;
 		-webkit-transition: width 0.3s linear;
 		transition: width 0.3s linear;
-	}
-
-	.columns {
-		p {
-			margin: 0 0 25px;
-
-			@media only screen and (max-width: 767px) {
-				margin: 0 0 20px;
-			}
-		}
-
-		h3 {
-			.fas {
-				color: $red;
-				margin: 0 5px 0 0;
-				font-size: 35px;
-
-				@media only screen and (max-width: 767px) {
-					font-size: 22px;
-				}
-			}
-
-			@media only screen and (max-width: 767px) {
-				margin: 0 0 15px;
-			}
-		}
 	}
 }
 
