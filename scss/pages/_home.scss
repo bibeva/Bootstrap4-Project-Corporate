@@ -232,6 +232,24 @@
 			font-size: 100%;
 		}
 	}
+
+	.pagination {
+		justify-content: center;
+		margin: 25px 0 0;
+
+		.page-item {
+			&.active {
+				.page-link {
+					background: $red;
+					border-color: $red;
+				}
+			}
+
+			.page-link {
+				padding: 8px 15px 10px;
+			}
+		}
+	}
 }
 
 // team block
@@ -424,12 +442,9 @@
 	}
 
 	.content {
-		ul {
-			@extend %listreset;
-		}
-
 		li {
 			padding: 10px 20px;
+			border: 0;
 			background: lighten($black, 77%);
 
 			&:nth-child(2n-1) {
@@ -547,6 +562,14 @@
 		}
 	}
 
+	.card {
+		border: 0;
+	}
+
+	.card-body {
+		padding: 0;
+	}
+
 	.image {
 		margin: 0 0 15px;
 		overflow: hidden;
@@ -561,9 +584,10 @@
 		margin: 0 0 10px;
 	}
 
-	h3 {
+	h5 {
 		margin: 0 0 10px;
 		color: $red;
+		font-size: 22px;
 
 		a {
 			&:hover {

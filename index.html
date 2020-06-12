@@ -321,6 +321,21 @@
 							</div>
 						</div>
 					</div>
+					<nav aria-label="...">
+						<ul class="pagination">
+							<li class="page-item disabled">
+								<a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+							</li>
+							<li class="page-item"><a class="page-link" href="#">1</a></li>
+							<li class="page-item active" aria-current="page">
+								<a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+							</li>
+							<li class="page-item"><a class="page-link" href="#">3</a></li>
+							<li class="page-item">
+								<a class="page-link" href="#">Next</a>
+							</li>
+						</ul>
+					</nav>
 				</div>
 			</section>
 			<!-- team block -->
@@ -553,12 +568,12 @@
 								<span class="price">£49</span>
 							</div>
 							<div class="content">
-								<ul>
-									<li>Wireframing</li>
-									<li>Visual Design</li>
-									<li>5 pages</li>
-									<li>Free Hosting</li>
-									<li>Support &amp; Assistance</li>
+								<ul class="list-group">
+									<li class="list-group-item">Wireframing</li>
+									<li class="list-group-item">Visual Design</li>
+									<li class="list-group-item">5 pages</li>
+									<li class="list-group-item">Free Hosting</li>
+									<li class="list-group-item">Support &amp; Assistance</li>
 								</ul>
 							</div>
 							<div class="btn-holder">
@@ -572,12 +587,12 @@
 								<span class="ribbon">Popular</span>
 							</div>
 							<div class="content">
-								<ul>
-									<li>Wireframing</li>
-									<li>Visual Design</li>
-									<li>15 pages</li>
-									<li>Free Hosting</li>
-									<li>Support &amp; Assistance</li>
+								<ul class="list-group">
+									<li class="list-group-item">Wireframing</li>
+									<li class="list-group-item">Visual Design</li>
+									<li class="list-group-item">15 pages</li>
+									<li class="list-group-item">Free Hosting</li>
+									<li class="list-group-item">Support &amp; Assistance</li>
 								</ul>
 							</div>
 							<div class="btn-holder">
@@ -590,12 +605,12 @@
 								<span class="price">£349</span>
 							</div>
 							<div class="content">
-								<ul>
-									<li>Wireframing</li>
-									<li>Visual Design</li>
-									<li>Unlimited pages</li>
-									<li>Free Hosting</li>
-									<li>Support &amp; Assistance</li>
+								<ul class="list-group">
+									<li class="list-group-item">Wireframing</li>
+									<li class="list-group-item">Visual Design</li>
+									<li class="list-group-item">Unlimited pages</li>
+									<li class="list-group-item">Free Hosting</li>
+									<li class="list-group-item">Support &amp; Assistance</li>
 								</ul>
 							</div>
 							<div class="btn-holder">
@@ -615,38 +630,50 @@
 					<div class="row">
 						<div class="col-sm-4">
 							<div class="holder">
-								<div class="image">
-									<img src="images/blog1.jpg" alt="Image Description">
+								<div class="card">
+									<div class="image">
+										<img src="images/blog1.jpg" alt="Image Description">
+									</div>
+									<div class="card-body">
+										<time datetime="2016-11-15">15 Nov 2016</time>
+										<h5 class="card-title"><a href="#">Coffee Lovers</a></h5>
+										<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, asperiores eaque quibusdam eum
+											quod cum nesciunt.</p>
+											<a href="#" class="btn btn-primary">Read More <i class="fas fa-chevron-right"></i></a>
+									</div>
 								</div>
-								<time datetime="2016-11-15">15 Nov 2016</time>
-								<h3><a href="#">Coffee Lovers</a></h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, asperiores eaque quibusdam eum
-									quod cum nesciunt.</p>
-								<a href="#" class="btn btn-primary">Read More <i class="fas fa-chevron-right"></i></a>
 							</div>
 						</div>
 						<div class="col-sm-4">
 							<div class="holder">
-								<div class="image">
-									<img src="images/blog2.jpg" alt="Image Description">
+								<div class="card">
+									<div class="image">
+										<img src="images/blog2.jpg" alt="Image Description">
+									</div>
+									<div class="card-body">
+										<time datetime="2016-11-15">15 Nov 2016</time>
+										<h5 class="card-title"><a href="#">Tips for UI Design</a></h5>
+										<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus mollitia quos labore officiis quod
+											optio saepe voluptatum.</p>
+											<a href="#" class="btn btn-primary">Read More <i class="fas fa-chevron-right"></i></a>
+									</div>
 								</div>
-								<time datetime="2016-11-15">15 Nov 2016</time>
-								<h3><a href="#">Tips for UI Design</a></h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus mollitia quos labore officiis quod
-									optio saepe voluptatum.</p>
-								<a href="#" class="btn btn-primary">Read More <i class="fas fa-chevron-right"></i></a>
 							</div>
 						</div>
 						<div class="col-sm-4">
 							<div class="holder">
-								<div class="image">
-									<img src="images/blog3.jpg" alt="Image Description">
+								<div class="card">
+									<div class="image">
+										<img src="images/blog3.jpg" alt="Image Description">
+									</div>
+									<div class="card-body">
+										<time datetime="2016-11-15">15 Nov 2016</time>
+										<h5 class="card-title"><a href="#">Beautiful Day</a></h5>
+										<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident velit suscipit dicta placeat
+											neque quidem quos.</p>
+											<a href="#" class="btn btn-primary">Read More <i class="fas fa-chevron-right"></i></a>
+									</div>
 								</div>
-								<time datetime="2016-11-15">15 Nov 2016</time>
-								<h3><a href="#">Beautiful Day</a></h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident velit suscipit dicta placeat
-									neque quidem quos.</p>
-								<a href="#" class="btn btn-primary">Read More <i class="fas fa-chevron-right"></i></a>
 							</div>
 						</div>
 					</div>
